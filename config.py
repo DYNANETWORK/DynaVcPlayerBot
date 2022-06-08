@@ -34,7 +34,7 @@ class Config:
    
     #Database
     DATABASE_URI=os.environ.get("DATABASE_URI", None)
-    DATABASE_NAME=os.environ.get("DATABASE_NAME", "SuraVCPlayBot")
+    DATABASE_NAME=os.environ.get("DATABASE_NAME", "DynaVcPlayerBot")
 
 
     #heroku
@@ -368,7 +368,7 @@ Tip: __You can easily change the CHAT config by adding the user account and bot 
 
 3. `BOT_TOKEN` : __[@Botfather](https://telegram.dog/BotFather)__
 
-4. `SESSION_STRING` : __Generate From here [GenerateStringName](https://replit.com/@ZauteKm/GenerateStringSession#main.py)__
+4. `SESSION_STRING` : __Generate From here [GenerateStringName](https://replit.com/@DYNANETWORK/DynaVcPlayerBot#main.py)__
 
 5. `CHAT` : __ID of Channel/Group where the bot plays Music.__
 

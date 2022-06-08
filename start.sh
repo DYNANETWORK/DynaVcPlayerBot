@@ -2,12 +2,12 @@ echo "Cloning Repo...."
 if [ -z $BRANCH ]
 then
   echo "Cloning master branch...."
-  git clone https://github.com/DYNANETWORK/DynavcPlayerBot /DynavcPlayerBot
+  git clone https://github.com/DYNANETWORK/DynaVcPlayerBot /DynaVcPlayerBot
 else
   echo "Cloning $BRANCH branch...."
-  git clone https://github.com/DYNANETWORK/DynavcPlayerBot -b $BRANCH /DynavcPlayerBot
+  git clone https://github.com/DYNANETWORK/DynaVcPlayerBot -b $BRANCH /DynaVcPlayerBot
 fi
-cd /VCPlayerBot
+cd /VcPlayerBot
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 main.py
